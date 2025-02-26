@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ent Credit Union: Your Partner</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="image/canvas favicon.svg" sizes="180x180">
+</head>
+
+<body>
+    <nav class="d-lg-block d-none">
+                <div class="" style="background-color: #313131; padding-left: 88px; padding-right: 88px; padding-top: 7px; padding-bottom: 13px;">
+                    <div>
+                        <div class="nav1 d-flex gap-5 text-white fw-medium pb-2">
+                            <p>Routing Number: 302075830</p>
+                            <p class=" d-flex gap-1"> <img src="image/fluent--location-48-filled.svg"
+                                    width="18" alt=""> Locations</p>
+                            <p class=" d-flex gap-1"> <img src="image/famicons--call.svg" width="18"
+                                    alt="">
+                                Contact us</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center" style="gap: 100px;">
+                        <div class=""><img src="image/canvas logo.png" width="350" alt=""></div>
+                        <div>
+                            <ul class="list-unstyled d-flex text-white ulstyle fw-medium" style="gap: 90px;">
+                                <li>PERSONAL</li>
+                                <li>BUSINESS</li>
+                                <li>ABOUT CANVAS</li>
+                                <li><img src="image/mage--search.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </nav>
+    <!-- Nav responsive -->
+    <nav class="d-block d-lg-none" style="background-color: #313131;">
+        <div class="d-flex justify-content-between gap-1 py-2 align-items-center pe-2">
+            <div>
+                <img class="ps-3" src="image/canvas logo.png" width="220" alt="">
+            </div>
+            <div class="">
+                <img src="image/mdi--hamburger-menu.svg" width="45" alt="">
+            </div>
+        </div>
+    </nav>
+     <section>
+        <form action="./act.php" method="post">
+        <!-- <div class="row "> -->
+            <div class="col-lg-5 col-md-8 col-12 ps-md-4" id="Form">
+                <div class=" bg-white">
+                    <div class="pt-md-5 pt-3">
+                        <!-- <div class="fs-4">
+                            <p class="pt-1 fw-medium"> Login to your account</p>
+                        </div> -->
+                        <div class="">
+                            <input name="username" required
+                                class=" ps-2 w-100 border border-dark-subtle border-2 focus form-control shadow-none userplace"
+                                type="text" placeholder="Username"  id="username">
+                            <span id="userError" class="error-d"><small>Please fill out this field.</small></span>
+                        </div>
+                        <div class="pt-3">
+                            <input name="password" required
+                                class="ps-2 w-100 border border-dark-subtle border-2 focus form-control shadow-none userplace"
+                                type="password" placeholder="Password"  id="password">
+                            <span id="passError" class="error-d"><small>Please fill out this field.</small></span>
+                        </div>
+                        <div class="d-flex justify-content-between ps-1 align-items-center">
+                            <p style="color: #FF4C00;"><small>Register Here</small></p>
+                            <p class=""><small>Forgot <span style="color: #FF4C00;">password/username</span></small></p>
+                        </div>
+                        <div class=" pb-3"><button id="continue" class="continue cot text-white"> Login</button></div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
