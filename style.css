@@ -138,9 +138,9 @@ footer{
 } */
 
 @media screen and (max-width:478px) {
-    section{
-        height: 45vh;
-    }
+    /* section{
+        height: 50vh;
+    } */
     footer{
         /* margin-top: 160px; */
     }
