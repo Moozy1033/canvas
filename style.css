@@ -115,6 +115,10 @@ input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none; /* For Chrome, Safari, Edge */
     margin: 0;
 }
+footer{
+    background-color: #313131;
+    margin-top: 100px;
+}
 
 /* Small Screen */
 /* @media screen and (max-width:768px) {
@@ -134,9 +138,11 @@ input[type="number"]::-webkit-outer-spin-button {
 } */
 
 @media screen and (max-width:478px) {
-    section {
-        padding:10px;
-        height: 110vh;
+    /* section {
+        height: 100vh;
+    } */
+    footer{
+        margin-top: 122px;
     }
     /* .continue:hover{
         background-color: initial;
