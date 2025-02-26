@@ -139,10 +139,10 @@ footer{
 
 @media screen and (max-width:478px) {
     section{
-        /* height: 100vh; */
+        height: 100vh;
     }
     footer{
-        margin-top: 160px;
+        /* margin-top: 160px; */
     }
 }
 /* @media (min-width: 768px) and (max-width: 1024px){
