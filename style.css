@@ -138,9 +138,7 @@ footer{
 } */
 
 @media screen and (max-width:478px) {
-    .ind{
-        height: 48vh;
-    }
+    
     footer{
         /* margin-top: 160px; */
     }
